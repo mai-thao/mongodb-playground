@@ -69,3 +69,6 @@ NOTE: Need to grant permission to new database! Or create new user! There is a d
 
 $ db.createUser({ user: "mt", pwd: "pw", roles: [{ role: "readWrite", db: "customerdb" }] })
 ```
+
+#### Mongosh Usage
+![An image showing usage of mongosh](mongosh-shell-usage-screenshot.PNG "Mongosh usage on terminal")
