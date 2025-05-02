@@ -4,7 +4,7 @@
 #### via Local Environment
 1) Download MongoDB from official website: https://www.mongodb.com/try/download/community
 2) On command line, start it by running `$ mongod`
-   3) Will start on default port 27017, but can specify different port using `$ mongod --port 27017`
+3) Will start on default port 27017, but can specify different port using `$ mongod --port 27017`
 4) Connect to it with Mongosh shell using commands below!
 
 #### via Docker
