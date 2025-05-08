@@ -2,14 +2,14 @@
 
 MonogoDB is a **NoSQL, document-based database** that stores data in **flexible, JSON-like documents**. It is ideal for storing unstructured or evolving data. In this project, I demostrate how you can start a MongoDB server locally and then connect to with the mongosh shell client.
 
-### Install and Start A MongoDB Server
-#### via Local Environment
+## Install and Start A MongoDB Server
+### via Local Environment
 1) Download MongoDB from official website: https://www.mongodb.com/try/download/community
 2) On command line, start it by running `$ mongod`
 3) Will start on default port 27017, but can specify different port using `$ mongod --port 27017`
 4) Connect to it with Mongosh shell using commands below!
 
-#### via Docker
+### via Docker
 1) Download Docker from official website: https://docs.docker.com/get-started/get-docker/
 2) Pull the MongoDb docker image from Docker Hub by running `$ docker pull mongo`
     * The official image link: https://hub.docker.com/_/mongo
@@ -23,7 +23,7 @@ MonogoDB is a **NoSQL, document-based database** that stores data in **flexible,
 5) Connect to it with Mongosh shell using commands below.
 6) Stop the container with `$ docker stop <ID of container>`
 
-### Log Into Mongo DB Via Mongosh Shell
+## Log Into Mongo DB Via Mongosh Shell
 
 `$ mongosh "mongodb://localhost:27017" --username mt --password pw`
 
@@ -35,7 +35,7 @@ OR
 
 Docs: https://www.mongodb.com/docs/mongodb-shell/
 
-### Common mongosh Commands
+## Common mongosh Commands
 
 ```
 $ show dbs
@@ -72,6 +72,8 @@ NOTE: Need to grant permission to new database! Or create new user! There is a d
 $ db.createUser({ user: "mt", pwd: "pw", roles: [{ role: "readWrite", db: "customerdb" }] })
 ```
 
-#### Mongosh Usage
+There are so many more commands not listed here. To learn more, check out the MongoDB cheatsheet at: https://learn.mongodb.com/learn/course/mongodb-shell-cheatsheet/main/mongodb-shell-cheatsheet
+
+### Mongosh Usage
 A screenshot showing my local usage of the mongosh shell client. 
 ![An image showing usage of mongosh](mongosh-shell-usage-screenshot.PNG "Mongosh usage on terminal")
