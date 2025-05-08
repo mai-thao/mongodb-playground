@@ -1,5 +1,7 @@
 ﻿# mongodb-playground
 
+MonogoDB is a **NoSQL, document-based database** that stores data in **flexible, JSON-like documents**. It is ideal for storing unstructured or evolving data. In this project, I demostrate how you can start a MongoDB server locally and then connect to with the mongosh shell client.
+
 ### Install and Start A MongoDB Server
 #### via Local Environment
 1) Download MongoDB from official website: https://www.mongodb.com/try/download/community
@@ -71,4 +73,5 @@ $ db.createUser({ user: "mt", pwd: "pw", roles: [{ role: "readWrite", db: "custo
 ```
 
 #### Mongosh Usage
+A screenshot showing my local usage of the mongosh shell client. 
 ![An image showing usage of mongosh](mongosh-shell-usage-screenshot.PNG "Mongosh usage on terminal")
