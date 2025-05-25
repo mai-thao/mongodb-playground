@@ -1,6 +1,6 @@
 ﻿# mongodb-playground
 
-MonogoDB is a **NoSQL, document-based database** that stores data in **flexible, JSON-like documents**. It is ideal for storing unstructured or evolving data. In this project, I demostrate how you can start a MongoDB server locally and then connect to with the mongosh shell client.
+[MonogoDB](https://www.mongodb.com) is a **NoSQL, document-based database** that stores data in **flexible, JSON-like documents**. It is ideal for storing unstructured or evolving data. In this project, I demostrate how you can start a MongoDB server locally and then connect to with the mongosh shell client.
 
 ## Install and Start A MongoDB Server
 ### via Local Environment
